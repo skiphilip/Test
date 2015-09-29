@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.NDEV.DO"
+        versionCode = "10" 
+        version     = "D.0.0.1" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Garagentor</name>
+
+    <description>
+       none 
+    </description>
+
+    <author href="http://www.niestroj-sg.de" email="development@niestroj-sg.de">
+        Philip Niestroj
+    </author>
+	
+	<!--<icon src="ressources/icon.png" />
+	
+	<gap:splash src="ressources/splash.png" />-->
+	
+	<gap:platform name="ios" />
+<gap:platform name="android" />
+	<gap:plugin name="edu.uic.travelmidwest.cordova.udptransmit" version="0.0.1" />
+	<!-- Properities -->
+
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+
+	<!-- Features -->
+	
+	<feature name="http://api.phonegap.com/1.0/network" />
+	
+
+</widget>
